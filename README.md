@@ -1,4 +1,4 @@
-# Bulletin_OIT
+# ILO_Bulletin
 
 This repository contains the code and resources needed to generate an automated newsletter for the International Labour Organization (ILO).
 
@@ -16,7 +16,7 @@ The project is organized as follows:
 
 ## Viewing the Newsletter
 
-The generated newsletter can be viewed online at the following URL: [ILO Newsletter](https://josuecaldasv.github.io/Bulletin_OIT/sample_bulletin.html).
+The generated newsletter can be viewed online at the following URL: [ILO Newsletter](https://josuecaldasv.github.io/ILO_Bulletin/sample_bulletin.html).
 
 This URL hosts the `sample_bulletin.html` file and provides an easy way to access and view the latest version of the ILO newsletter.
 
