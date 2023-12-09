@@ -6,12 +6,13 @@
         body { font-family: Arial, sans-serif; }
         .container { width: 80%; margin: auto; }
         .header-image { 
-            width: 70%; 
-            height: 230px; 
+            width: 100%; /* Ajuste para ocupar el ancho completo */
+            height: 361px; /* Altura ajustada a 361px */
             background-image: url('https://safety2021canada.com/wp-content/uploads/2020/09/ES_ILO_Organization_Horizontal_RGB_Blue-1-1024x361.png'); 
-            background-size: cover; 
-            background-position: center; 
-            margin: auto; /* Centra la imagen horizontalmente */
+            background-size: contain; /* Ajuste para que la imagen se ajuste al tamaño del contenedor */
+            background-repeat: no-repeat; /* Para evitar la repetición de la imagen */
+            background-position: center; /* Para centrar la imagen */
+            margin: auto;
         }
         .news-title-center { /* Estilo para centrar el título */
             text-align: center;
