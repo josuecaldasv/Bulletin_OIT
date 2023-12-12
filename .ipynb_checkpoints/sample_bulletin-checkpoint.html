@@ -4,35 +4,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body { font-family: Arial, sans-serif; }
-        .container { width: 80%; margin: auto; }
-        .header-image { 
-            width: 100%; /* Ajuste para ocupar el ancho completo */
-            height: 361px; /* Altura ajustada a 361px */
-            background-image: url('https://safety2021canada.com/wp-content/uploads/2020/09/ES_ILO_Organization_Horizontal_RGB_Blue-1-1024x361.png'); 
-            background-size: contain; /* Ajuste para que la imagen se ajuste al tamaño del contenedor */
-            background-repeat: no-repeat; /* Para evitar la repetición de la imagen */
-            background-position: center; /* Para centrar la imagen */
+        .container { 
+            width: 80%; 
             margin: auto;
         }
-        .news-title-center { /* Estilo para centrar el título */
+        .header-image { 
+            width: 100%;
+            max-width: 700px;
+            height: 361px;
+            background-image: url('https://safety2021canada.com/wp-content/uploads/2020/09/ES_ILO_Organization_Horizontal_RGB_Blue-1-1024x361.png'); 
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: auto;
+        }
+        .news-title-center { 
             text-align: center;
         }
-        .news-item { display: flex; align-items: flex-start; margin-bottom: 20px; }
+        .news-item { 
+            display: flex; 
+            align-items: flex-start; 
+            margin-bottom: 20px; 
+            border-bottom: 1px solid #FF6F61; /* Línea coral */
+            padding-bottom: 20px;
+        }
         .news-image { width: 25%; height: auto; margin-right: 20px; }
         .news-content { width: 75%; }
-        .news-title { font-size: 18px; font-weight: bold; }
-        .news-summary { font-size: 14px; margin-top: 10px; }
-        .news-link { text-decoration: none; color: blue; margin-top: 10px; display: inline-block; }
+        .news-title { 
+            font-size: 18px; 
+            font-weight: bold;
+            color: #0047AB; /* Azul cobalto */
+            text-align: justify;
+        }
+        .news-summary { 
+            font-size: 14px; 
+            margin-top: 10px;
+            text-align: justify;
+        }
+        .news-link { 
+            text-decoration: none; 
+            color: blue; 
+            margin-top: 10px; 
+            display: inline-block; 
+            font-weight: bold;
+        }
         .contact-section { 
             margin-top: 30px; 
             font-size: 14px; 
-            background-color: #E0F7FA; /* Color celeste muy claro */
-            padding: 15px; /* Agrega algo de relleno */
-            text-align: center; /* Centra el contenido */
+            background-color: #E0F7FA;
+            padding: 15px;
+            text-align: center;
         }
-        .contact-detail { /* Nuevo estilo para detalles de contacto */
-            margin-top: 10px;
-        }
+        .contact-detail { margin-top: 10px; }
         .social-links { list-style: none; padding: 0; }
         .social-links li { display: inline; margin-right: 10px; }
         .social-links .fa-twitter { color: #1DA1F2; }
@@ -40,13 +63,19 @@
         .social-links .fa-linkedin { color: #0077b5; }
         .social-links .fa-youtube { color: #FF0000; }
         .social-links .fa-instagram { color: #E4405F; }
-        .footer { margin-top: 30px; font-size: 12px; text-align: center; }
+        .footer { 
+            margin-top: 30px; 
+            font-size: 12px; 
+            text-align: center; 
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
     <div class="header-image"></div>
     <div class="container">
-        <h1 class="news-title-center">Boletín de Noticias</h1> <!-- Título centrado -->
+        <h1 class="news-title-center">Boletín de Noticias</h1>
         
         <div class="news-item">
             <img src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/23/140923122531_sp_siria_reuters_144.jpg" class="news-image">
